@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style:none ;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1003px;
+    margin:0 auto;
+    overflow: hidden;
+}
+/*头部开始*/
+#logo{
+    width: 195px;
+    height: 120px;
+    float: left;
+}
+#logo a{
+    margin-top: 29px;
+    float: left;
+}
+.nav{
+    float: left;
+    margin-left:133px;
+    margin-top:49px;
+}
+.nav li{
+    float: left;
+    padding:0 24px 0 25px;
+    position: relative;
+}
+.nav li::after{
+    content:'';
+    height: 14px;
+    width: 1px;
+    background: #6b6b6b;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top:-7px;
+}
+.nav a{
+    color: #626262;
+    font-size: 15px;
+}
+.nav .active a{
+    color:#00aeff
+}
+#sercah{
+    width: 130px;
+    height: 30px;
+    float: right;
+    margin-top: 45px;
+    background: #f1f3f6 ;
+}
+.input{
+    width: 90px;
+    height: 30px;
+    border:none;
+    cursor: pointer;
+    outline:none;
+    background: #f1f3f6;
+    font-size:15px;
+    text-align: center;
+    color: #a3a3a3;
+}
+#sercah .input-btn {
+    border:none;
+    cursor: pointer;
+    outline:none;
+    float: right;
+    top: -30px;
+    width: 32px;
+    height: 30px;
+    /*left: 20px ;*/
+    background: rgba(255,255,255,0) no-repeat url(../img/精灵.png) 5px 5px;
+}
+/*头部结束*/
+/*轮播开始*/
+.weappermax{
+    background: #31333e;
+}
+.lunbo{
+    position: relative;
+}
+.img-box a{
+    display: none;
+}
+.lunbo .lunbo-active{
+    display: block;
+}
+.lunbo .prev{
+    position: absolute;
+    cursor: pointer;
+    top: 204px;
+    height: 50px;
+    width: 34px;
+    background: rgba(255,255,255,0) no-repeat  url(../img/精灵.png) -28px -25px;
+}
+.lunbo .next{
+    position: absolute;
+    cursor: pointer;
+    left: 973px;
+    top: 204px;
+    height: 50px;
+    width: 34px;
+    background: rgba(255,255,255,0) no-repeat  url(../img/精灵.png) -62px -25px;
+}
+/*轮播结束*/
+/*中部开始*/
+.sange ul li{
+    height: 492px;
+    width: 334px;
+    float: left;
+}
+.sange h1{
+    margin-top: 85px;
+    text-align: center;
+    font-size: 30px;
+}
+.sange p{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.foot{
+    font-size: 15px;
+    text-align: center;
+}
+.foot a{
+    color: #00aeff;
+}
+/*.one-img .two-img .three-img {*/
+    /*margin: 30px 110px ;*/
+    /*width: 105px;*/
+    /*height: 105px;*/
+    /*display: block;*/
+/*}*/
+.one-img{
+    margin: 30px 110px ;
+    width: 105px;
+    height: 105px;
+    display: block;
+    background: rgba(255,255,255,0) no-repeat  url(../img/精灵.png) -408px -11px;
+}
+.two-img{
+    margin: 30px 110px ;
+    width: 105px;
+    height: 105px;
+    display: block;
+    background: rgba(255,255,255,0) no-repeat  url(../img/精灵.png) -552px -11px;
+}
+.three-img{
+    margin: 30px 110px ;
+    width: 105px;
+    height: 105px;
+    display: block;
+    background: rgba(255,255,255,0) no-repeat  url(../img/精灵.png) -688px -11px;
+}
+/*中部结束*/
+/*outworks开始*/
+.wrapperbg{
+    background: #e2e7ed;
+}
+.outworks{
+    margin-bottom:30px;
+}
+.outworks ul{
+    height: 400px;
+    width: 1003px;
+}
+.outworks li{
+    float: left;
+    width: 250px;
+}
+.h1{
+    margin-top:30px;
+    margin-bottom:20px;
+    color: #626262;
+}
+/*outworks结束*/
+/*赞助商开始*/
+/*赞助商结束*/
+.sponsor{
+    height: 154px;
+}
+.sponsor .h2{
+    margin-top:30px;
+    color: #626262;
+}
+.btn li{
+    list-style: none;
+    margin-top: 43px;
+    margin-bottom: 30px;
+    width: 30px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.prev-btn{
+    float: left;
+    background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -28px -81px;
+}
+.next-btn{
+    float: right;
+    background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -61px -81px;
+}
+.wrappersponsor{
+    /*width: 1800px;*/
+    /*overflow: hidden;*/
+}
+.sponsorlist{
+    /*position: relative;*/
+    width: 1003px;
+    overflow: hidden;
+}
+.sponsorlist ul{
+    position: absolute;
+    width:1900px;
+    overflow: hidden;
+}
+.sponsorlist li{
+    float: left;
+    margin:34px 30px 0 25px;
+}
+/*底部开始*/
+.wrapperfoot{
+    background: #31333e;
+}
+.ptwo{
+    font-size: 12px;
+    width: 500px;
+    height: 15px;
+    margin-bottom:48px;
+    color: #b4b8bf;
+}
+.pone{
+    font-size: 15px;
+    width: 300px;
+    height: 20px;
+    margin-top: 70px;
+    margin-bottom:37px;
+    color: #b4b8bf;
+
+}
+.foot-active{
+    top: 45px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    padding-right: 20px;
+    color: #e2e7ed;
+}
+.footlist .active {
+    top: 45px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #e2e7ed;
+}
+.footlist li a{
+    color: #b4b8bf;
+}
+.footlist .active ::after{
+    content:'';
+    height: 14px;
+    width: 1px;
+    background: #e2e7ed;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top:-7px;
+}
+.wrapper .footlist .footlist-active {
+    left: 0;
+}
+.footimg{
+    float: right;
+    margin-top: -148px;
+}
+.footimg li{
+    float: left;
+    margin-left:10px;
+}
+.footimg li a{
+    /*float: left;*/
+    display: block;
+    width: 37px;
+    height: 37px;
+    /*margin-left:10px;*/
+}
+.footimg1{
+   background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -96px -31px;
+}
+.footimg2{
+    background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -143px -31px;
+}
+.footimg3{
+    background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -190px -31px;
+}
+.footimg4{
+    background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -237px -31px;
+}
+.footimg5{
+    background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -284px -31px;
+}
+.footimg6{
+    background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -331px -31px;
+}
+/*底部结束*/
