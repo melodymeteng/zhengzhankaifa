@@ -188,6 +188,7 @@ a{
 /*赞助商结束*/
 .sponsor{
     height: 154px;
+    position: relative;
 }
 .sponsor .h2{
     margin-top:30px;
@@ -203,11 +204,29 @@ a{
     cursor: pointer;
 }
 .prev-btn{
-    float: left;
+    /*float: left;*/
+    list-style: none;
+    margin-top: 43px;
+    margin-bottom: 30px;
+    width: 30px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
     background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -28px -81px;
 }
 .next-btn{
-    float: right;
+    /*float: right;*/
+    list-style: none;
+    margin-top: 43px;
+    margin-bottom: 30px;
+    width: 30px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    left: 973px;
+    top:28px;
     background: rgba(255,255,255,0) no-repeat url('../img/精灵.png') -61px -81px;
 }
 .wrappersponsor{
@@ -226,7 +245,7 @@ a{
 }
 .sponsorlist li{
     float: left;
-    margin:34px 30px 0 25px;
+    margin: 37px 0px 0 57px;
 }
 /*底部开始*/
 .wrapperfoot{
