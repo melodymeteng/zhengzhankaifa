@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/index.css"/>
-
 </head>
 <body>
 <div class="wrapper">
@@ -28,14 +27,18 @@
     <div class="wrapper">
         <div class="lunbo">
             <div class="img-box">
-                <a class="lunbo-active" href="#"><img src="img/lunbo1.jpg " alt=""></a>
+                <a class="lunbo-active" href="#"><img  src="img/lunbo1.jpg " alt=""></a>
                 <a href="#"><img src="img/lunbo2.jpg " alt=""></a>
                 <a href="#"><img src="img/lunbo3.jpg " alt=""></a>
                 <a href="#"><img src="img/lunbo4.jpg " alt=""></a>
+                <span class="prev"></span>
+                <span class="next"></span>
             </div>
-            <ul>
-                <li class="prev"></li>
-                <li class="next"></li>
+            <ul id="lunbo-tab">
+                <li class="selected">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
             </ul>
         </div>
     </div>
@@ -87,14 +90,16 @@
             <div class="sponsorlist">
                 <span class="prev-btn"></span>
                 <span class="next-btn"></span>
-                <ul>
+                <div class="list">
+                    <ul>
                     <li><a href="#"><img src="img/sponsor1.png" alt=""></a></li>
                     <li><a href="#"><img src="img/sponsor2.png" alt=""></a></li>
                     <li><a href="#"><img src="img/sponsor3.png" alt=""></a></li>
                     <li><a href="#"><img src="img/sponsor4.png" alt=""></a></li>
                     <li><a href="#"><img src="img/sponsor3.png" alt=""></a></li>
                     <li><a href="#"><img src="img/sponsor1.png" alt=""></a></li>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -123,5 +128,6 @@
         </div>
     </div>
 </div>
+<script src="js/index.js"></script>
 </body>
 </html>

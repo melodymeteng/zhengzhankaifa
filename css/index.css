@@ -111,6 +111,27 @@ a{
     width: 34px;
     background: rgba(255,255,255,0) no-repeat  url(../img/精灵.png) -62px -25px;
 }
+#lunbo-tab{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    /*float: right;*/
+    /*overflow: hidden;*/
+}
+#lunbo-tab li{
+    width: 20px;
+    height: 20px;
+    background: #00aeff ;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#lunbo-tab .selected {
+    background: red;
+}
 /*轮播结束*/
 /*中部开始*/
 .sange ul li{
@@ -205,6 +226,7 @@ a{
 }
 .prev-btn{
     /*float: left;*/
+    z-index:2;
     list-style: none;
     margin-top: 43px;
     margin-bottom: 30px;
@@ -217,6 +239,7 @@ a{
 }
 .next-btn{
     /*float: right;*/
+    z-index:1;
     list-style: none;
     margin-top: 43px;
     margin-bottom: 30px;
@@ -238,10 +261,11 @@ a{
     width: 1003px;
     overflow: hidden;
 }
-.sponsorlist ul{
+.list{
     position: absolute;
+    left:0px;
     width:1900px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .sponsorlist li{
     float: left;
