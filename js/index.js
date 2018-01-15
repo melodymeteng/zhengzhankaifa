@@ -51,7 +51,6 @@ function run() {
         oNext.onclick();
     },1000);
 }
-// var oSponsor=document.getElementsByClassName('sponsorlist')[0];
 // var oUl=oSponsor.getElementsByTagName('ul');
 var oList=document.getElementsByClassName('list')[0];
 var oPrevBtn=document.getElementsByClassName('prev-btn')[0];
